@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <style>
+        body {
+            background-color: #202020;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+		
+		header {
+            background-color: #303030;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+		
+		.pre-grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 10px;
+			margin-top: 0px;
+        }
+		
+		.pre-1-item img {
+            width: 700px;
+            height: 500px;
+            display: block;
+			margin: auto;
+			margin-top: 30px;
+        }
+		
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+		
+		.container-2 {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .gallery-button {
+			background-color: #e6e6e6;
+            color: black;
+            border: none;
+            padding: 10px 30px;
+            font-size: 20px;
+            cursor: pointer;
+            display: inline-block;
+            margin: 20px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+	<header>
+        <h1>11. Osztály fotó album</h1>
+    </header>
+	
+	<div class="pre-grid">
+        <div class="pre-1-item"><img src="Pre_1.jpg" alt="" class="center"></div>
+    </div>
+	
+	<div class="container-2">
+		<a href="Gallery.html" class="gallery-button">Galléria</a>
+	</div>
+</body>
+</html>

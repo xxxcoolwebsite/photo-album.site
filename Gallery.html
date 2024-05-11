@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album</title>
+    <style>
+		body {
+            background-color: #202020;
+			color: white;
+            font-family: Arial, sans-serif;
+        }
+		
+		header {
+            background-color: #303030;
+            color: white;
+            text-align: center;
+            padding: 1em;
+			max-height: 40px;
+        }
+		
+        .boy-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+			margin-top: 10px;
+        }
+		
+		.boy-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+		
+		.girl-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+			margin-top: 20px;
+			margin-bottom: 10px;
+        }
+		
+		.girl-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+		
+		.back-button {
+			background-color: #e6e6e6;
+            color: black;
+            border: none;
+            padding: 10px 30px;
+            font-size: 20px;
+            cursor: pointer;
+            display: inline-block;
+            margin: auto;
+            text-decoration: none;
+        }
+		
+    </style>
+</head>
+<body>
+	<header>
+		<a href="Home.html" class="back-button">Vissza</a>
+    </header>
+
+    <div class="boy-grid">
+        <div class="boy-item"><img src="IMG_Sanyi.jpg" alt=""></div>
+        <div class="boy-item"><img src="IMG_Roland.jpg" alt=""></div>
+        <div class="boy-item"><img src="IMG_Kovacs.jpg" alt=""></div>
+        <div class="boy-item"><img src="IMG_Patrik.jpg" alt=""></div>
+		<div class="boy-item"><img src="IMG_Akim.jpg" alt=""></div>
+		<div class="boy-item"><img src="IMG_Alex.jpg" alt=""></div>
+		<div class="boy-item"><img src="IMG_Nagy.jpg" alt=""></div>
+		<div class="boy-item"><img src="IMG_Adam.jpg" alt=""></div>
+		<div class="boy-item"><img src="IMG_Abel.jpg" alt=""></div>
+		<div class="boy-item"><img src="IMG_Tamas.jpg" alt=""></div>
+    </div>
+	
+	<div class="girl-grid">
+		<div class="girl-item"><img src="IMG_Siki.jpg" alt=""></div>
+		<div class="girl-item"><img src="IMG_Noemi.jpg" alt=""></div>
+		<div class="girl-item"><img src="IMG_Anna.jpg" alt=""></div>
+		<div class="girl-item"><img src="IMG_Berni.jpg" alt=""></div>
+		<div class="girl-item"><img src="IMG_Eva.jpg" alt=""></div>
+		<div class="girl-item"><img src="IMG_Sznyizsana.jpg" alt=""></div>
+		<div class="girl-item"><img src="IMG_Krisztina.jpg" alt=""></div>
+		<div class="girl-item"><img src="IMG_Jenny.jpg" alt=""></div>
+		<div class="girl-item"><img src="IMG_Renata.jpg" alt=""></div>
+	</div>
+</body>
+</html>
